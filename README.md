@@ -4,9 +4,7 @@
 Rup-CarPackBuilder is a tool for organizing and managing FiveM vehicle packs. It automatically moves and organizes meta files, stream files, and DLC files into the correct structure for FiveM servers. The tool is packaged as an `.exe`, so no installation is required. It features a user-friendly graphical interface built using Tkinter and utilizes [sv_ttk](https://github.com/rdbende/Sun-Valley-ttk-theme) for theming.
 
 ## Download
-To use Rup-CarPackBuilder, download the pre-built executable from the link below:
-
-- [Download Latest Release](#)
+To use Rup-CarPackBuilder, download the pre-built executable from the latest release.
 
 ## Getting Started
 
