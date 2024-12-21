@@ -28,7 +28,7 @@ No installation of Python or additional libraries is required!
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
-For issues or suggestions, please join my Discord: [Rup-Community](https://discord.gg/nHu2pZjUGG)
+For issues or suggestions, please join my Discord: [Rup-Scripts](https://discord.gg/nHu2pZjUGG)
 
 ## Developers
 I will not be providing support for source code-related issues. If you want to make changes and submit pull requests, feel free to do so, and I will review them.
