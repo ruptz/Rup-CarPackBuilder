@@ -208,8 +208,6 @@ def process_folder():
 root = tk.Tk()
 root.title("Vehicle Pack Organizer")
 root.geometry("1200x700")
-root.iconbitmap(r"C:\Fivem Dev\Rup-PackGenerator\logo.ico")
-
 
 screen_width = root.winfo_screenwidth()
 screen_height = root.winfo_screenheight()
