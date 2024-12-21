@@ -122,7 +122,7 @@ def clean_empty_folders():
     for folder in [STREAM_FOLDER, STREAM_DATA_FOLDER]:
         if not os.path.exists(folder):
             print(f"Folder '{folder}' does not exist, skipping.")
-            results_text.insert(tk.END, "Folder '{folder}' does not exist, skipping.")
+            results_text.insert(tk.END, f"Folder '{folder}' does not exist, skipping.")
             continue
         for car_folder in os.listdir(folder):
             car_path = os.path.join(folder, car_folder)
@@ -234,22 +234,13 @@ button_choose.pack(side=tk.RIGHT, padx=10)
 button_process = ttk.Button(root, text="Process Folder", command=process_folder)
 button_process.pack(pady=20)
 
-rpf_label = ttk.Label(root, text="RPF Finder:", font=('Arial', 16, 'bold'))
-rpf_label.pack(pady=5)
-
-rpf_frame = ttk.Frame(root)
-rpf_frame.pack(pady=5)
-
-rpf_text = scrolledtext.ScrolledText(rpf_frame, width=110, height=15, wrap=tk.WORD, font=('Arial', 12), bg='#111111', fg='white')
-rpf_text.pack(padx=5, pady=5)
-
 results_label = ttk.Label(root, text="Pack Results:", font=('Arial', 16, 'bold'))
 results_label.pack(pady=5)
 
 results_frame = ttk.Frame(root)
 results_frame.pack(pady=5)
 
-results_text = scrolledtext.ScrolledText(results_frame, width=110, height=15, wrap=tk.WORD, font=('Arial', 12), bg='#111111', fg='white')
+results_text = scrolledtext.ScrolledText(results_frame, width=110, height=30, wrap=tk.WORD, font=('Arial', 12), bg='#111111', fg='white')
 results_text.pack(padx=5, pady=5)
 
 apply_theme_to_titlebar(root)
