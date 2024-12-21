@@ -22,11 +22,11 @@ No installation of Python or additional libraries is required!
     - Follow the prompts to organize your files for use in FiveM.
 3. Check the log for a summary of the process, if needed.
 
+## Developers
+I will not be providing support for source code-related issues. If you want to make changes and submit pull requests, feel free to do so, and I will review them.
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 For issues or suggestions, please join my Discord: [Rup-Scripts](https://discord.gg/nHu2pZjUGG)
-
-## Developers
-I will not be providing support for source code-related issues. If you want to make changes and submit pull requests, feel free to do so, and I will review them.
