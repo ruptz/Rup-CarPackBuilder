@@ -20,7 +20,7 @@ No installation of Python or additional libraries is required!
 ## Usage
 1. Launch the application by double-clicking the EXE file.
 2. Use the provided interface to perform your packing tasks:
-    - Choose the folder containing your vehicle files (MUST BE IN A STREAM FOLDER).
+    - Choose the folder containing your stream folder.
     - Follow the prompts to organize your files for use in FiveM.
 3. Check the log for a summary of the process, if needed.
 
